@@ -22,7 +22,7 @@ client.login(email=email,password=password)
 cid="133703591"
 cidy=133703591
 
-adm=[f63fc94e-324c-4181-b87f-c2a500a0b23b]
+adm=["f63fc94e-324c-4181-b87f-c2a500a0b23b"]
 self=client.socket
 def generate_transaction_id(self):
         return str(uuid4())
