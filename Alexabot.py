@@ -18,7 +18,6 @@ email="heromr042@gmail.com"
 password="AAaa1122"
 
 client.login(email=email,password=password)
-
 cid="133703591"
 cidy=133703591
 
