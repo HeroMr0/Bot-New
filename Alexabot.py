@@ -17,21 +17,21 @@ from uuid import uuid4
 client=amino.Client()
 os.system("clear")
 print("\t\033[1;32m Alexa1.0  \033[1;36m Community Bot \n\n")
-email="xhpv7u@wwjmp.com"
-password="PASSWORD"
+email="heromr042@gmail.com"
+password="AAaa1122"
 
 client.login(email=email,password=password)
 
-cid="22360814"
-cidy=22360814
+cid="133703591"
+cidy=133703591
 
-adm=[]
+adm=[f63fc94e-324c-4181-b87f-c2a500a0b23b]
 self=client.socket
 def generate_transaction_id(self):
         return str(uuid4())
 transaction=generate_transaction_id(self)
 
-admx=["http://aminoapps.com/p/70cuwe"]
+admx=["http://aminoapps.com/p/us26ri2"]
 
 client.join_community(cid)
 for i in admx:
@@ -390,7 +390,7 @@ def on_text_message(data):
 					print(e)
 			if x.lower()=="/help" and c==[]:
 				try:
-					subclient.send_message(chatId=data.message.chatId,message="""[c]Alexa Commands
+					subclient.send_message(chatId=data.message.chatId,message="""[c]Bot Commands
 [c]𐄁𐄙𐄁𐄙𐄁𐄙𐄁𐄙𐄁𐄙𐄁𐄙𐄁𐄙𐄁
 /join                       /global
 /say                        /pm
@@ -409,7 +409,7 @@ def on_text_message(data):
 /onlinemem           /lock
 /love                        /gf
 
-[ci]Alexa by Techvision
+[ci]Bot
 [c]𐄁𐄙𐄁𐄙𐄁𐄙𐄁𐄙𐄁𐄙𐄁𐄙𐄁𐄙𐄁""")
 					print(f"Info requested by {data.message.author.nickname}")
 				except Exception as e:
