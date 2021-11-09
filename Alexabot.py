@@ -6,9 +6,6 @@ import json
 from json import dumps, load
 import argparse
 from urllib.request import urlopen
-system("pip install  amino-new.py==4.2.2")
-system("pip install gtts")
-system("pip install requests")
 import amino
 import time
 from gtts import gTTS
