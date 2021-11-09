@@ -1,8 +1,3 @@
-amino.py
-pathlib
+amino-new.py==4.2.2
+gtts
 requests
-colorama
-pyfiglet
-websocket.client
-typing
-uuid
